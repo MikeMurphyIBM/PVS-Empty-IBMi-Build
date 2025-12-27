@@ -50,7 +50,7 @@ readonly API_VERSION="2024-02-28"
 
 # Network Configuration
 readonly SUBNET_ID="9b9c414e-aa95-41aa-8ed2-40141e0c42fd"
-readonly PUBLIC_SUBNET_NAME="public-net-murphy-clone"
+readonly PUBLIC_SUBNET_NAME="public-net-$(date +"%Y%m%d%H%M%S")"  # Unique name with timestamp
 readonly PRIVATE_IP="192.168.10.35"
 readonly KEYPAIR_NAME="murph2"
 
