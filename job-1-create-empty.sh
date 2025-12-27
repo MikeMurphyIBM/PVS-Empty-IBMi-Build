@@ -419,4 +419,7 @@ trap - ERR
 # Mark job as successful
 JOB_SUCCESS=1
 
+# Give logs time to flush before exit
+sleep 2
+
 exit 0
